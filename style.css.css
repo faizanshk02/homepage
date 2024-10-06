@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;  
+}
+
+.logo{
+    background-image: url("Amazon-Logo-Font-1-scaled.webp");
+    background-size:cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/**box 2**/
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size:1rem;
+    margin-left: 3px;
+}
+
+.aad-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**box 3 **/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width:610px ;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 1rem;
+
+}
+
+.search-input{
+    width: 565px;
+    border: none;
+    font-size:1rem;
+    
+}
+
+
+.search-icon{
+    width: 45px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px;
+    color:  #0f1111;
+}
+
+
+/**box 4 **/
+.flag-icon{
+    font-size: 1.1rem;
+}
+
+.lang-select{
+    color: white;
+    background-color: #0f1111;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+
+/**box 5 & 6 **/
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**box 7 **/
+.nav-cart i{
+    font-size:  30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** complate navbar **/
+
+.panal{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panal-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panal-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panal-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/** compalte panal**/
+
+.hero-sec-mgs {
+    background-image: url(1st_cover_amazon.jpg);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-mgs {
+    color:black;
+    font-size: large;
+    font-weight:lighter;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-mgs a{
+    color: #007185;
+}
+
+
+/** hero sectrion**/
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color:#007185 ;
+}
+
+/** Footer **/
+footer{
+    margin-top: 15px;
+}
+.foot-line1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    font-size: 0.85rem;
+}
+
+.foot-line2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: o.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    
+}
+
+.foot-line3{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    border-top: 0.5px solid white ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("Amazon-Logo-Font-1-scaled.webp") ;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.english{
+    border: 1px solid whitesmoke;
+    
+}
+
+.foot-line4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.pages{
+    padding-top:25px ;
+}
+
+.copyrigth{
+    padding-top: 5px;
+}
